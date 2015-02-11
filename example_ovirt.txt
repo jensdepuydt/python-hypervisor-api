@@ -1,0 +1,27 @@
+#name of the vm
+[ovirttestvm1]
+#hostname of the oVirt host
+host: ovirt-host
+#use host_type ovirt to create an oVirt guest
+host_type: ovirt
+#username to connect to the oVirt-host (user@domain)
+user: admin@internal
+#storage domain name
+datastore: nssd
+#memory for the guest in MB
+guest_mem: 2048
+#number of virtual CPU's
+guest_cpu: 1
+#disk space in GB
+guest_space: 10
+#purpose of the guest (description)
+purpose: VM to test API 1
+[ovirttestvm2]
+host: ovirt-host
+host_type: ovirt
+user: admin@internal
+datastore: ssd
+guest_mem: 2048
+guest_cpu: 1
+guest_space: 10
+purpose: VM to test API 2

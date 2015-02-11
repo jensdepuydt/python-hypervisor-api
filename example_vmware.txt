@@ -1,0 +1,30 @@
+#name of the vm
+[vmwaretestvm1]
+#hostname of the vCenter host
+host: vcenter-host
+#use host_type vmware to create an vCenter guest
+host_type: vmware
+#name of the ESX host in the cluster where the VM will be created
+esx_host: 192.168.0.5
+#username to connect to vCenter
+user: root
+#datastore name
+datastore: ssd
+#memory for the guest in MB
+guest_mem: 1024
+#number of virtual CPU's
+guest_cpu: 1
+#disk space in GB
+guest_space: 5
+#purpose of the guest (description)
+purpose: VM to test API 1
+[vmwaretestvm2]
+host: vcenter-host
+host_type: vmware
+esx_host: 192.168.0.6
+user: root
+datastore: ssd
+guest_mem: 1024
+guest_cpu: 1
+guest_space: 5
+purpose: VM to test API 2
