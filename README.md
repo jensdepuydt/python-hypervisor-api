@@ -12,6 +12,8 @@ more information on my blog: [Create a new virtual machine in Vsphere with Pytho
 - make sure you have access to the EPEL repositories (for CentOS or RHEL)
 - install ovirt-engine-sdk-python: (`sudo yum -y install ovirt-engine-sdk-python` or similar for your distro)
 
+more information on my blog: [Create a new virtual machine in oVirt with Python using the API] (http://jensd.be/?p=491)
+
 ##How to use:
 - edit the defaults in deploy_vm.py
 - create a textfile similar to example_ovirt.txt or example_vmware.txt
